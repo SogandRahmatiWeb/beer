@@ -1,2 +1,2 @@
 # beer
-developed by html and css
+<a href=" https://sogandrahmatiweb.github.io/beer/">online demo</a>
