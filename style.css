@@ -1,0 +1,305 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    
+    scroll-behavior: smooth;
+}
+
+main{
+    >header{
+        width: 100%;
+        height: 150px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 30px;
+       position: fixed;
+       z-index: 999;
+
+        >nav{
+            >ul{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                
+                >li{
+                    >a{
+                        color: #917852;
+                        font-size: 17px;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        margin: 0 20px;
+                        &:hover{
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    >.part1{
+        
+        width: 100%;
+        height: 100vh;
+        
+      background-image: url(img/bber.jpg);
+       background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+      background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+
+       
+    }
+
+    >.part2{
+        width: 100%;
+        height: 100vh;
+        background-image: url(img/Wolfgang\ Dining\ Table\ -\ 423\ Blackened\ _\ Medium_\ 82\ in\ width.jfif);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        >p{
+            margin-top: 30px;
+            color: white;
+            font-size: 40px;
+
+            &:last-of-type{
+                font-size: 20px;
+                margin: 50px;
+                column-count: 1;
+                column-gap: 50px;
+                width: 46%;
+                text-align: justify;
+            }
+        }
+
+        >div{
+            width: 12%;
+            height: 1px;
+            background-color: white;
+            margin-top: 40px;
+            
+        }
+    }
+
+    >.part3{
+        width: 100%;
+        height: 100vh;
+        background-image: url(img/part3.jpg);
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    >.part4{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        >img {
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            transition: .8s;
+            z-index: inherit;
+            &:last-of-type {
+                &:hover {
+                    opacity: 0;
+                }
+            }
+        }
+    
+    }
+    >.part5{
+        width: 100%;
+        height: 25vh;
+        display: flex;
+        justify-content: left;
+        align-items: start;
+        background-color: black;
+
+      >div{
+        display: flex;
+        flex-direction: column;
+        padding: 0 25px;
+        >h2{
+            color: #917852;
+            text-transform: uppercase;
+            text-align: left;
+            margin-top: 50px;
+        }
+
+        >p{
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 20px;
+            color: #999999;
+        }
+      }
+      
+        >input{
+            width: 40%;
+            height: 40px;
+            background-color: black;
+            border: 2px solid #917852;
+            margin: auto;
+            text-transform: capitalize;
+
+            
+          }
+          
+          >button{
+            width:10%;
+            height: 50px;
+            background-color: #917852;
+            text-transform: uppercase;
+            padding: 20px;
+            margin: auto;
+            border-radius: 2px ;
+           
+
+            >a{
+                text-decoration: none;
+                color: white;
+            }
+
+            
+            &:hover{
+              filter: brightness(.4);
+
+            }
+          }
+      
+
+        
+     
+    }
+
+    >.part6{
+        width: 100%;
+        height: 60vh;
+        background-image: url(img/Wolfgang\ Dining\ Table\ -\ 423\ Blackened\ _\ Medium_\ 82\ in\ width.jfif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        >img{
+            margin: 30px;
+        }
+       
+                >h2{
+                    color: #a3a3a3;
+                    margin-bottom: 20px;
+                 }
+
+                 >p{
+                    color: #9c8c73;
+                    margin-top: 20px;
+                 }
+
+            
+        }
+        >footer{
+            width: 100%;
+            height: 30vh;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            
+            >div{
+                >a{
+                    display: flex;
+                    width: 50px;
+                    height: 50px;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: rgb(62, 62, 62);  
+                    border-radius: 7px 7px 0 0;
+                    position: fixed;
+                    bottom: 0%;
+                    right: 150px;
+          
+                    >i{
+                      color: white;
+                      font-size: 20px;
+                      transition: .6s;
+                    }
+          
+                  }
+            }
+
+            >p{
+              color: white;
+              margin: 50px;
+            
+
+              >a{
+                text-decoration: none;
+                color: rgb(158, 153, 153);
+              }
+            }
+
+            >div{
+                display: flex;
+                flex-direction: row;
+                gap: 14px;
+        
+                >span {
+                 
+                         border-radius: 5px;
+                        cursor: pointer;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 45px;
+                        height: 45px;
+                        background-color: rgb(152, 149, 149);
+                        margin: 150px 10px 20px ;
+                       
+                    
+                    
+        
+                    >i {
+                        font-size: 25px;
+                       
+                        
+                        
+                    }
+                }
+            
+            }
+
+           
+          
+        }
+    }
+  
+
